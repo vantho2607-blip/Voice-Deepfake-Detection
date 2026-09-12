@@ -1,0 +1,49 @@
+# Dữ liệu và Cache (CỰC KỲ QUAN TRỌNG: Không bao giờ push lên Github)
+data/
+*.npz
+*.db
+*.sqlite
+*.flac
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Môi trường ảo (Virtualenv)
+.env
+.venv
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs và IDE
+logs/
+*.log
+.vscode/
+.idea/
+.pytest_cache/
+
+# Mật khẩu / Token (nếu có)
+.env.local
+.env.*.local
